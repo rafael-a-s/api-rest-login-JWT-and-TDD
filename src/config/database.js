@@ -1,10 +1,11 @@
 module.exports = {
-  host: "127.0.0.1",
+  host: "localhost",
+  port:5444,
   username: "postgres",
   password: "postgres",
-  database: "nodeauth",
+  database: "postgres",
   dialect: "postgres",
-  operatorsAliases: false,
+  operatorsAliases: 0,
   logging: false,
   difine: {
     timestamp: true,
