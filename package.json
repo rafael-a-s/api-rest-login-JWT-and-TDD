@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/serve.js --ignore __tests__"
+    "dev": "nodemon src/serve.js --ignore __tests__",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -14,6 +15,7 @@
     "sequelize": "^6.28.0"
   },
   "devDependencies": {
+    "jest": "^29.3.1",
     "nodemon": "^2.0.20",
     "sequelize-cli": "^6.5.2"
   }
