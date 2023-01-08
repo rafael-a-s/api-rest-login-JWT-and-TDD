@@ -3,12 +3,15 @@
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
-const process = require('process');
 const basename = path.basename(__filename);
-const config = require(__dirname + '../../config/database');
+const config = require('../../config/database');
 const db = {};
 
-const sequelize = new Sequelize(config.database, config.username, config.password, config);
+const sequelize = new Sequelize(
+  config.database, 
+  config.username, 
+  config.password, 
+  config);
 
 fs
   .readdirSync(__dirname)

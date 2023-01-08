@@ -7,9 +7,9 @@ module.exports = {
   dialect: "postgres",
   operatorsAliases: 0,
   logging: false,
-  difine: {
-    timestamp: true,
+  define: {
+    timestamps: true,
     underscored: true,
-    underscoredAlll: true
+    underscoredAll: true
   }
 };
